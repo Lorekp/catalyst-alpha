@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategy — Catalyst Alpha</title>
+  <meta name="description" content="How Catalyst Alpha generates returns from event-driven crypto strategies grounded in behavioral economics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="index.html" class="nav-brand">Catalyst<span>Alpha</span></a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="strategy.html" class="active">Strategy</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:2rem;">
+  <div class="container">
+    <h1>Our <em>Strategy</em></h1>
+    <p class="subtitle">Event-driven alpha from behavioral inefficiencies in crypto markets. Three independent edges, one systematic framework.</p>
+  </div>
+</header>
+
+<section style="padding-top:0;">
+  <div class="container">
+
+    <div class="content-block">
+      <h3>The Core Thesis</h3>
+      <p>Crypto markets are uniquely prone to behavioral mispricing around structural events. Token unlocks, funding rate extremes, and new token distributions create predictable supply/demand imbalances that persist because most market participants are retail-driven and reactive rather than systematic.</p>
+      <p style="margin-top:.75rem;">We don't predict markets. We identify events where the statistical distribution of outcomes is skewed in our favor, then position systematically.</p>
+    </div>
+
+    <div class="content-block">
+      <h3>1. Token Unlock Events</h3>
+      <p><strong>Behavioral basis:</strong> When locked tokens vest and become liquid, early investors and team members often sell — creating a supply shock. Markets consistently underestimate the magnitude of this selling pressure, even when unlock schedules are publicly known.</p>
+      <ul>
+        <li>We monitor upcoming unlock events across the ecosystem</li>
+        <li>We filter for events where unlock size is material relative to circulating supply</li>
+        <li>Positions are sized based on event magnitude and historical response patterns</li>
+        <li>Exit criteria are predefined — no discretionary holds</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>2. Funding Rate Mean-Reversion</h3>
+      <p><strong>Behavioral basis:</strong> Perpetual futures funding rates reflect the balance of long vs. short positioning. When funding reaches extremes, it signals overcrowded positioning and statistically reverts. This is a well-documented inefficiency rooted in leverage-driven herd behavior.</p>
+      <ul>
+        <li>Continuous monitoring of funding rates across assets</li>
+        <li>Statistical detection of extreme deviations from equilibrium</li>
+        <li>Position entry when rates reach historically significant levels</li>
+        <li>Mean-reversion capture with defined risk parameters</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>3. Airdrop &amp; TGE Distribution</h3>
+      <p><strong>Behavioral basis:</strong> When tokens are airdropped to users or launched via TGE (Token Generation Event), recipients overwhelmingly sell immediately — "free money" has near-zero holding incentive. This creates a predictable post-distribution price decline that the market prices inefficiently at listing.</p>
+      <ul>
+        <li>We track upcoming airdrops and new token listings</li>
+        <li>We assess the distribution dynamics (recipient count, vesting, market cap)</li>
+        <li>Short positions capture the post-distribution normalization</li>
+        <li>Strict timing windows prevent overexposure</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>Academic Foundations</h3>
+      <p>Our strategies draw from established research in behavioral finance and market microstructure:</p>
+      <ul>
+        <li><strong>Prospect theory</strong> — Asymmetric risk preferences drive sell pressure on "free" tokens</li>
+        <li><strong>Supply shock literature</strong> — Predictable supply increases cause temporary dislocations</li>
+        <li><strong>Mean-reversion in leveraged markets</strong> — Overcrowded positioning reverts as leverage unwinds</li>
+        <li><strong>AFML framework</strong> — Advances in Financial Machine Learning informs our validation pipeline</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>Risk Management</h3>
+      <p>Every position has predefined risk parameters. We never override systematic rules with discretionary judgment.</p>
+      <ul>
+        <li>Position sizing based on event magnitude and volatility</li>
+        <li>Maximum drawdown limits per strategy and portfolio-wide</li>
+        <li>Correlation monitoring to avoid concentrated exposure</li>
+        <li>All strategies run independently — no single point of failure</li>
+      </ul>
+    </div>
+
+    <div style="text-align:center; padding:2rem 0;">
+      <a href="about.html" class="btn btn-outline">Learn About Our Process</a>
+      <a href="https://t.me/catalystalpha" class="btn btn-primary" style="margin-left:1rem;">Get Signals</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Catalyst Alpha. All rights reserved.</p>
+    <p style="margin-top:.5rem;">
+      <a href="index.html">Home</a> &middot;
+      <a href="about.html">About</a> &middot;
+      <a href="https://t.me/catalystalpha">Telegram</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

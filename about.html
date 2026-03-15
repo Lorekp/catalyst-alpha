@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Catalyst Alpha</title>
+  <meta name="description" content="Our methodology, validation process, and the quantitative research framework behind Catalyst Alpha.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="index.html" class="nav-brand">Catalyst<span>Alpha</span></a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="strategy.html">Strategy</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:2rem;">
+  <div class="container">
+    <h1>Our <em>Methodology</em></h1>
+    <p class="subtitle">Rigorous quantitative research. Systematic validation. No shortcuts.</p>
+  </div>
+</header>
+
+<section style="padding-top:0;">
+  <div class="container">
+
+    <div class="content-block">
+      <h3>Who We Are</h3>
+      <p>Catalyst Alpha is a quantitative research team focused on crypto market microstructure. We specialize in identifying and exploiting event-driven inefficiencies using systematic, rules-based strategies.</p>
+      <p style="margin-top:.75rem;">Our team combines expertise in quantitative finance, behavioral economics, and crypto-native infrastructure. We build our own tooling, run our own infrastructure, and validate every hypothesis before risking capital.</p>
+    </div>
+
+    <div class="content-block">
+      <h3>The AFML Framework</h3>
+      <p>Our research pipeline is built on principles from <em>Advances in Financial Machine Learning</em> by Marcos L&oacute;pez de Prado — the gold standard for avoiding overfitting and false discoveries in quantitative finance.</p>
+      <ul>
+        <li><strong>Triple barrier labeling</strong> — Events are classified by outcome, not arbitrary time windows</li>
+        <li><strong>Combinatorial purged cross-validation</strong> — Backtests that prevent lookahead bias</li>
+        <li><strong>Walk-forward analysis</strong> — Out-of-sample validation on every strategy</li>
+        <li><strong>Feature importance</strong> — We understand why a strategy works, not just that it works</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>Validation Pipeline</h3>
+      <p>Every strategy passes through a rigorous multi-stage validation before deployment. No exceptions.</p>
+      <ol class="process-steps">
+        <li><strong>Hypothesis formation</strong> — Behavioral or structural basis identified. We start with the "why" before looking at data.</li>
+        <li><strong>Historical analysis</strong> — Statistical validation across multiple market regimes and time periods.</li>
+        <li><strong>Walk-forward testing</strong> — Out-of-sample performance on data the model has never seen. Strategies must pass strict Sharpe and drawdown criteria.</li>
+        <li><strong>Paper trading</strong> — Live market execution without real capital. Verifies signal generation, latency, and infrastructure reliability.</li>
+        <li><strong>Gradual deployment</strong> — Capital allocated incrementally. Continuous monitoring against paper trade benchmarks.</li>
+      </ol>
+    </div>
+
+    <div class="content-block">
+      <h3>Infrastructure</h3>
+      <p>We operate our own infrastructure for signal generation, monitoring, and execution. This gives us full control over latency, reliability, and data integrity.</p>
+      <ul>
+        <li>24/7 automated monitoring across all active positions</li>
+        <li>Real-time event detection for unlocks, funding, and listings</li>
+        <li>JSONL-based logging for full auditability of every decision</li>
+        <li>Redundant alerting systems — if a signal fires, we know</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>Our Principles</h3>
+      <ul>
+        <li><strong>No curve-fitting</strong> — If it doesn't work out-of-sample, it doesn't ship</li>
+        <li><strong>Transparency</strong> — We share our signals and rationale with subscribers</li>
+        <li><strong>Risk first</strong> — Position sizing and drawdown limits are non-negotiable</li>
+        <li><strong>Continuous improvement</strong> — Strategies are monitored and retired when edge decays</li>
+        <li><strong>Skin in the game</strong> — We trade our own capital on every signal we publish</li>
+      </ul>
+    </div>
+
+    <div style="text-align:center; padding:2rem 0;">
+      <a href="strategy.html" class="btn btn-outline">View Strategy Details</a>
+      <a href="https://t.me/catalystalpha" class="btn btn-primary" style="margin-left:1rem;">Join Telegram</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Catalyst Alpha. All rights reserved.</p>
+    <p style="margin-top:.5rem;">
+      <a href="index.html">Home</a> &middot;
+      <a href="strategy.html">Strategy</a> &middot;
+      <a href="https://t.me/catalystalpha">Telegram</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
